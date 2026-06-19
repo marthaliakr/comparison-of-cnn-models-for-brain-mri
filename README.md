@@ -13,12 +13,7 @@ Six experimental scenarios were conducted:
 - EfficientNetB0 Baseline
 - EfficientNetB0 Fine-Tuning
 
-Experimental results show that fine-tuning significantly improves classification performance across all architectures. Among all models, ResNet50 Fine-Tuning achieved the best overall performance with:
-- Test Accuracy: 97%
-- Precision: 97%
-- Recall: 97%
-- F1-Score: 97%
-- Test Loss: 0.10
+Experimental results show that fine-tuning significantly improves classification performance across all architectures. Among all models, ResNet50 Fine-Tuning achieved the best overall performance
 
 To enhance interpretability, Grad-CAM (Gradient-weighted Class Activation Mapping) was implemented to visualize important regions influencing model predictions. The system was further integrated into an interactive GUI application that allows users to upload MRI images, perform classification, and visualize Grad-CAM heatmaps.
 
