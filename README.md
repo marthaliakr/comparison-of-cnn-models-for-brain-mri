@@ -1,11 +1,10 @@
-# comparison-of-cnn-models-for-brain-mri
-Brain tumor MRI classification using DenseNet121, ResNet50, and EfficientNetB0 with fine-tuning and Grad-CAM visualization.
+# Perbandingan Model CNN untuk Klasifikasi MRI Tumor Otak
 
-This project presents a comparative analysis of three deep learning architectures DenseNet121, ResNet50, and EfficientNetB0 for brain tumor classification using MRI images. The study applies transfer learning and fine-tuning strategies to evaluate each model’s performance in multiclass classification of brain tumors.
+Proyek ini membahas analisis perbandingan tiga arsitektur deep learning, yaitu DenseNet121, ResNet50, dan EfficientNetB0 untuk melakukan klasifikasi tumor otak berdasarkan citra MRI. Penelitian ini menerapkan metode transfer learning dan fine-tuning untuk mengevaluasi performa setiap model dalam melakukan klasifikasi multiclass pada citra MRI tumor otak.
 
-The models were trained and evaluated on a Brain Tumor MRI dataset consisting of four classes: glioma, meningioma, pituitary, and healthy brain MRI images. Image preprocessing techniques such as resizing, model-specific preprocessing input, and light geometric augmentation were applied to improve model generalization.
+Model dilatih dan diuji menggunakan dataset Brain Tumor MRI yang terdiri dari empat kelas, yaitu glioma, meningioma, pituitary, dan healthy brain MRI. Tahapan preprocessing citra yang dilakukan meliputi proses resizing, preprocessing input sesuai kebutuhan masing-masing model, serta augmentasi geometrik sederhana untuk meningkatkan kemampuan generalisasi model.
 
-Six experimental scenarios were conducted:
+Terdapat enam skenario eksperimen yang dilakukan, yaitu:
 - DenseNet121 Baseline
 - DenseNet121 Fine-Tuning
 - ResNet50 Baseline
@@ -13,20 +12,29 @@ Six experimental scenarios were conducted:
 - EfficientNetB0 Baseline
 - EfficientNetB0 Fine-Tuning
 
-Experimental results show that fine-tuning significantly improves classification performance across all architectures. Among all models, ResNet50 Fine-Tuning achieved the best overall performance
+Hasil eksperimen menunjukkan bahwa penerapan fine-tuning mampu meningkatkan performa klasifikasi pada seluruh arsitektur yang diuji. Dari seluruh model yang dibandingkan, **ResNet50 dengan Fine-Tuning** menghasilkan performa terbaik dengan hasil klasifikasi yang paling stabil.
 
-To enhance interpretability, Grad-CAM (Gradient-weighted Class Activation Mapping) was implemented to visualize important regions influencing model predictions. The system was further integrated into an interactive GUI application that allows users to upload MRI images, perform classification, and visualize Grad-CAM heatmaps.
+Untuk meningkatkan interpretabilitas model, penelitian ini juga menerapkan **Grad-CAM (Gradient-weighted Class Activation Mapping)** untuk memvisualisasikan area penting pada citra MRI yang memengaruhi hasil prediksi model. Selain itu, sistem dikembangkan dalam bentuk aplikasi GUI interaktif yang memungkinkan pengguna untuk mengunggah citra MRI, melakukan proses klasifikasi, serta melihat visualisasi heatmap Grad-CAM.
 
-## Features
-- Brain tumor MRI classification
-- Transfer learning & fine-tuning
-- Comparative CNN model analysis
-- Grad-CAM visualization
-- Interactive GUI application
-- Confusion matrix and evaluation metrics
+## Fitur
+- Klasifikasi tumor otak berdasarkan citra MRI
+- Penerapan transfer learning dan fine-tuning
+- Analisis perbandingan beberapa model CNN
+- Visualisasi Grad-CAM untuk interpretasi model
+- Aplikasi GUI interaktif
+- Evaluasi menggunakan confusion matrix dan berbagai metrik performa
 
-Dataset Source:
+## Dataset
+Sumber dataset:
 https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
-## Best Model
-ResNet50 with Fine-Tuning demonstrated the highest performance and the most stable classification results among all tested architectures.
+## Model Terbaik
+Berdasarkan hasil pengujian, **ResNet50 dengan Fine-Tuning** menunjukkan performa terbaik dibandingkan model lainnya dengan tingkat akurasi yang lebih tinggi serta hasil klasifikasi yang lebih konsisten.
+
+---
+
+**Dibuat oleh:**  
+Kelompok 4  
+1. Nabila Yudhitya Larasati		(23083010086)
+2. Salsabila Wardah			(23083010092)
+3. Marthalia Kusumarima		(23083010100)
