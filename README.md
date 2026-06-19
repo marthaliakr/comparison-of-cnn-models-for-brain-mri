@@ -1,4 +1,4 @@
-# Perbandingan Model CNN untuk Klasifikasi MRI Tumor Otak
+# ANALISIS PERBANDINGAN PERFORMA DENSENET121, RESNET50, DAN EFFICIENTNETB0 DENGAN FINE-TUNING PADA KLASIFIKASI TUMOR OTAK MENGGUNAKAN CITRA MRI DAN GRAD-CAM
 
 Proyek ini membahas analisis perbandingan tiga arsitektur deep learning, yaitu DenseNet121, ResNet50, dan EfficientNetB0 untuk melakukan klasifikasi tumor otak berdasarkan citra MRI. Penelitian ini menerapkan metode transfer learning dan fine-tuning untuk mengevaluasi performa setiap model dalam melakukan klasifikasi multiclass pada citra MRI tumor otak.
 
